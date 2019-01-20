@@ -446,8 +446,11 @@ h4.agileinfo-head {
 /* skills */
 
 .w3_agileits-service-left h3 {
-    text-align: left;
-    color: #fff;
+    text-align: center;
+    color: #fc9f00;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .skills-right {
@@ -615,7 +618,7 @@ div#skills {
     right: 0;
     text-align: center;
     top: -85px;
-    font-size: 1.1em;
+    font-size: 0.9em;
     color: #fff;
     font-weight: 600;
 }
@@ -658,6 +661,7 @@ span.value {
 
 .w3_agileits-service-left p {
     color: #fff;
+    line-height: 2em;
 }
 
 div#services h3 {
