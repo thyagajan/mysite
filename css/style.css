@@ -32,7 +32,7 @@ p {
     margin: 0;
     line-height: 1.8;
     font-size: 1em;
-    color: #000;
+    color: #219687;
 }
 
 ul,
@@ -469,6 +469,8 @@ div#skills {
 }
 
 
+
+
 /*-- Skills bar effects --*/
 
 .skill-grids {
@@ -659,13 +661,15 @@ span.value {
     padding-left: 3em;
 }
 
-.w3_agileits-service-left p {
-    color: #fff;
-    line-height: 2em;
-}
+
 
 div#services h3 {
     color: #fff;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom:5vh;
+
 }
 
 .services-grid img {
@@ -673,43 +677,12 @@ div#services h3 {
     -webkit-border-radius:50%;
 }
 
-.services-w3ls-row.agileits-w3layouts.service1,
-.services-w3ls-row.agileits-w3layouts.service4 {
-    margin: 0 auto;
+.agileits-w3layouts-service
+{
+    
     width: 25%;
-    text-align: center;
+    margin-top:5vh;
     position: relative;
-}
-
-.services-w3ls-row.agileits-w3layouts.service1:before,
-.services-w3ls-row.agileits-w3layouts.service4:before {
-    content: '';
-    background: #fff;
-    display: block;
-    width: 21%;
-    left: 39%;
-    height: 2px;
-    transform: rotate(90deg);
-    position: absolute;
-}
-
-.services-w3ls-row.agileits-w3layouts.service1:before {
-    bottom: -35px;
-}
-
-.services-w3ls-row.agileits-w3layouts.service4:before {
-    top: -35px;
-}
-
-.services-grid.agileits-w3layouts.service2 {
-    text-align: right;
-    padding-right: 4em;
-    padding-left: 2em;
-}
-
-.services-grid.agileits-w3layouts.service3 {
-    padding-left: 4em;
-    padding-right: 2em;
 }
 
 .sub-icon {
@@ -723,10 +696,10 @@ div#services h3 {
 }
 
 div#services {
-    background: #03afdd;
+    background: #fc9f00;
 }
 
-.agileits-w3layouts h5 {
+.agileits-w3layouts-service h5 {
     color: #e4e0e0;
     font-size: 1.5em;
     text-transform: uppercase;
@@ -748,25 +721,6 @@ div#services {
     background: #f2849e;
     margin: 3em 0;
     position: relative;
-}
-
-.img-agileits:before,
-.img-agileits:after {
-    content: '';
-    background: #fff;
-    display: block;
-    width: 16%;
-    top: 46%;
-    height: 2px;
-    position: absolute;
-}
-
-.img-agileits:before {
-    left: -35px;
-}
-
-.img-agileits:after {
-    right: -45px;
 }
 
 
