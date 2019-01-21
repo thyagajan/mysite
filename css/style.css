@@ -679,8 +679,6 @@ div#services h3 {
 
 .agileits-w3layouts-service
 {
-    
-    width: 25%;
     margin-top:5vh;
     position: relative;
 }
@@ -1007,7 +1005,7 @@ ul.w3-links li a i.fa:hover {
 .agileits_w3layouts-footer {
     text-align: center;
     padding: 2em 0;
-    background: #1853a1;
+    background: #2e5576;
 }
 
 .agileits_w3layouts-footer p {
