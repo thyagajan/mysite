@@ -694,7 +694,7 @@ div#services h3 {
 }
 
 div#services {
-    background: #fc9f00;
+    background: #305478;
 }
 
 .agileits-w3layouts-service h5 {
@@ -729,6 +729,10 @@ div#services {
 
 /*--portfolio--*/
 /*--SAP--*/
+
+#swipebox-title{
+    background: black;
+}
 .sap_tabs{
 	clear:both;
 	padding: 0;
