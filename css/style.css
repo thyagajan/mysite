@@ -354,7 +354,101 @@ nav a:hover:after {
     padding: 5em 0;
 }
 
+.timeline{
+	padding :2em;
+}
 
+/* services */
+.agile-why-text-2 {
+    padding: 25px;
+    box-shadow: 1px 0px 3px 1px rgba(0, 0, 0, 0.17);
+}
+
+.agile-why-text-2 h4 {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.agile-why-text-2 p {
+    font-size: 14px;
+}
+
+.p-0 {
+    padding: 0 !important;
+}
+
+.mb-5, .my-5 {
+    margin-bottom: 3rem !important;
+}
+.mt-5, .my-5 {
+    margin-top: 3rem !important;
+}
+
+.col-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+
+.col-9 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.why-choose-agile .row{
+	display : flex;
+	flex-wrap : wrap;
+}
+
+.why-choose-agile {
+	background-color : lightsteelblue;
+	padding : 4em;
+}
+
+.agile-why-text-2{
+	background-color : ivory
+}
+
+
+.wthree_features_grid i {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    line-height: 2;
+    border-radius: 26px 0px 0px 26px;
+    background: #2e1f54;
+    margin-top: 1.2em;
+}
+.wthree_features_grid1 i {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    line-height: 2;
+    border-radius: 0px 26px 26px 0px;
+    background: #2e1f54;
+    margin-top: 1.2em;
+}
+
+.heading-agileinfo {
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 40px;
+    text-align: center;
+    color: #000;
+    text-transform: capitalize;
+    position: relative;
+    margin-top: 0;
+}
 
 /* //about */
 #about,#portfolio{

@@ -21,7 +21,7 @@
         <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
         <!-- //gallery -->
         <link rel="stylesheet" href="css/swipebox.css">
-
+		<link href="css/roadmap.css" rel="stylesheet" type="text/css" />
         <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
         <link href="css/font-awesome.css" rel="stylesheet">
         <!-- font-awesome icons -->
@@ -48,6 +48,7 @@
                                 <a href="#home" class="active scroll">Home</a>
                                 <a href="#about" class="scroll">About Me</a>
                                 <a href="#skills" class="scroll">Skills</a>
+								<a href="#experience" class="Scroll">Experience</a>
                                 <a href="#portfolio" class="scroll">Portfolio</a>
                                 <a href="#services" class="scroll">Specilization</a>
                                 <a href="#contact" class="scroll">Contact</a>
@@ -147,7 +148,87 @@
                 <div class="clearfix"></div>
             </div>
         </div>
+		
+	<!-- /experience -->
+    <section class="experience  py-lg-5 py-4" id="experience">
+        <div class="timeline  py-lg-5 py-3">
+            <h3 class="w3l_head two text-uppercase text-center">Experience</h3>
+            <div id="my-timeline"></div>
+        </div>
 
+    </section>
+    <!-- //experience -->
+	<!--Digital Credentials -->
+	<!-- services -->
+	<div class="why-choose-agile py-5">
+	<!---728x90--->
+		<div class="container pt-xl-5 pb-lg-5">
+			<h3 class="heading-agileinfo">Digital  <span>Credentials</span></h3>
+			<div class="row why-choose-agile-grids-top pt-md-5 mt-4">
+				<div class="col-md-4 agileits-w3layouts-grid">
+					
+					<div class="row wthree_agile_us my-5">
+						<div class="col-3 agile-why-text p-0 text-right">
+							<div class="wthree_features_grid">
+								<i class="fa fa-anchor"></i>
+							</div>
+						</div>
+						<div class="col-9 agile-why-text-2">
+							<h4 class="text-dark font-weight-bold mb-3">Full Stack Certified</h4>
+							<p>StackRoute</p>
+							<a href="https://verifyawards.stackroute.in/verify?url=https://awards.stackroute.in/public/assertions/yIkpoQaNSpqt4QHrts3KGg.json?v=1_1" target="_blank" class="btn btn-info ">Verify</a>
+						</div>
+					</div>
+					<div class="row wthree_agile_us">
+						<div class="col-3 agile-why-text p-0 text-right">
+							<div class="wthree_features_grid">
+								<i class="fa fa-adn"></i>
+							</div>
+						</div>
+						<div class="col-9 agile-why-text-2">
+							<h4 class="text-dark font-weight-bold mb-3">Java Foundations</h4>
+							<p>IBM</p>
+							<a href="https://www.youracclaim.com/badges/e6b03ee2-a4ea-4eab-82c2-83ee60eb2039" target="_blank" class="btn btn-info ">Verify</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 agileits-w3layouts-grid img text-center">
+					
+				</div>
+				<div class="col-lg-4 agileits-w3layouts-grid">
+					
+					<div class="row wthree_agile_us my-5">
+						<div class="col-9 agile-why-text-2">
+							<h4 class="text-dark font-weight-bold mb-3">Full Stack Developer</h4>
+							<p>IBM</p>
+							<a href="https://www.youracclaim.com/badges/55edc1be-17d8-45af-a1a4-c07162bc2b1f" target="_blank" class="btn btn-info ">Verify</a>
+						</div>
+						<div class="col-3 agile-why-text p-0">
+							<div class="wthree_features_grid1">
+								<i class="fa fa-at"></i>
+							</div>
+						</div>
+					</div>
+					<div class="row wthree_agile_us">
+						<div class="col-9 agile-why-text-2">
+							<h4 class="text-dark font-weight-bold mb-3">IBM Mentor</h4>
+							<p>IBM</p>
+								
+							<a href="https://www.youracclaim.com/badges/f29b53b0-e58c-4daf-8780-bc9b8ccf8f01" target="_blank" class="btn btn-info ">Verify</a>
+						</div>
+						<div class="col-3 agile-why-text p-0">
+							<div class="wthree_features_grid1">
+								<i class="fa fa-arrows-alt"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!---728x90--->
+	</div>
+	<!-- //services -->
+	<!-- End of DC -->
     <!--portfolio-->
     <div id="portfolio" class="portfolio">
         <div class="container">
@@ -513,5 +594,37 @@
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="js/bootstrap.js"></script>
+		 <!-- Include jQuery Timeline Plugin -->
+    <script src="js/jquery.roadmap.js"></script>
+
+    <script>
+        $(document).ready(function() {
+
+            var events = [{
+                    date: 'Oct 2017 - Present',
+                    content: 'IBM India Pvt Ltd <small>Senior System Analyst</small>'
+                },
+                {
+                    date: 'Feb 2016 - Oct 2017',
+                    content: 'Home Sweet Home <small>Baby Sitting</small>'
+                },
+                {
+                    date: 'Apr 2013 - feb 2016',
+                    content: 'Oracle India Pvt Ltd <small>Project Lead</small>'
+                },
+                {
+                    date: 'Oct 2005 - Apr 2013',
+                    content: 'IBM India Pvt Ltd <small>Senior System Engineer</small>'
+                }
+            ];
+
+            $('#my-timeline').roadmap(events, {
+                eventsPerSlide: 4,
+                slide: 1,
+                prevArrow: '<i class="fas fa-chevron-left"></i>',
+                nextArrow: '<i class="fas fa-chevron-right"></i>'
+            });
+        });
+    </script>
     </body>
     </html>
