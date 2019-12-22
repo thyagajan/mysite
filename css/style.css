@@ -407,13 +407,20 @@ nav a:hover:after {
 }
 
 .why-choose-agile {
-	background-color : lightsteelblue;
+	background-image: url(../images/success.jpg);
+    background-attachment: fixed;
+    background-size: cover;
 	padding : 4em;
 }
 
 .agile-why-text-2{
-	background-color : ivory
+	background-color : white;
 }
+
+.agile-why-text{
+	background-color : darkorange;
+}
+
 
 
 .wthree_features_grid i {
