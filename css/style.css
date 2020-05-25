@@ -32,7 +32,7 @@ p {
     margin: 0;
     line-height: 1.8;
     font-size: 1em;
-    color: #219687;
+    color: #e02bd2;
 }
 
 ul,
@@ -411,6 +411,11 @@ nav a:hover:after {
     background-attachment: fixed;
     background-size: cover;
 	padding : 4em;
+}
+
+.services{
+	background-image : url(../images/specialization.jpg);
+	background-attachment: fixed;
 }
 
 .agile-why-text-2{
@@ -794,9 +799,7 @@ div#services h3 {
     color: #fff;
 }
 
-div#services {
-    background: #305478;
-}
+
 
 .agileits-w3layouts-service h5 {
     color: #e4e0e0;
