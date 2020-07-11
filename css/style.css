@@ -828,6 +828,92 @@ div#services h3 {
 
 /*//services */
 
+/* team */
+.teams {
+    background-image: url(../images/success.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+	padding : 4em;
+}
+
+.teams h3.title-w3ls {
+    color: #fff;
+}
+
+h3.title-w3ls {
+    font-size: 38px;
+    font-weight: 600;
+    color: #000;
+}
+
+.team-gd {
+    padding: 3em 2em;
+    background: #fff;
+}
+
+.team-info h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #262631;
+    letter-spacing: .4px;
+}
+
+.sub-tittle-team {
+    font-size: 11px;
+    color: #fd5c63;
+    letter-spacing: 2px;
+    display: block;
+    margin-bottom: 2px;
+    text-transform: uppercase;
+}
+
+/* team social icons */
+ul.social_section_1info a {
+    color: #717580;
+    font-size: 13px;
+    margin-right: 2px;
+    width: 35px;
+    height: 35px;
+    background: #121215;
+    padding: 9px 20px;
+    text-align: center;
+    line-height: 35px;
+    letter-spacing: 1px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+ul.social_section_1info li.facebook a {
+    color: #fff;
+    background: #3b5998;
+}
+
+ul.social_section_1info li.twitter a {
+    color: #fff;
+    background: #1da1f2;
+}
+
+ul.social_section_1info li.google a {
+    color: #fff;
+    background: #dd4b39;
+}
+
+ul.social_section_1info li.linkedin a {
+    color: #fff;
+    background: #0077b5;
+}
+
+ul.social_section_1info a:hover {
+    opacity: 0.8;
+}
+
+/* //team social icons */
+/* //team */
+
+
 
 /*-- gallery --*/
 
